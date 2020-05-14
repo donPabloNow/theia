@@ -34,7 +34,8 @@ export class WebviewEnvironment {
         try {
             const variable = await this.environments.getValue(WebviewExternalEndpoint.pattern);
             const value = variable && variable.value || WebviewExternalEndpoint.defaultPattern;
-            this.externalEndpointHost.resolve(value.replace('{{hostname}}', window.location.host || 'localhost'));
+            const { host } = new Endpoint();
+            this.externalEndpointHost.resolve(value.replace('{{hostname}}', host));
         } catch (e) {
             this.externalEndpointHost.reject(e);
         }

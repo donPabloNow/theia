@@ -1,0 +1,1151 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>TerminalFrontendContribution | Theia TypeDoc</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Theia TypeDoc</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/terminal.html">terminal</a>
+				</li>
+				<li>
+					<a href="terminal.terminalfrontendcontribution.html">TerminalFrontendContribution</a>
+				</li>
+			</ul>
+			<h1>Class TerminalFrontendContribution</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">TerminalFrontendContribution</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/terminal.terminalservice.html" class="tsd-signature-type">TerminalService</a></li>
+					<li><a href="../interfaces/core.commandcontribution.html" class="tsd-signature-type">CommandContribution</a></li>
+					<li><a href="../interfaces/core.menucontribution.html" class="tsd-signature-type">MenuContribution</a></li>
+					<li><a href="../interfaces/core.keybindingcontribution.html" class="tsd-signature-type">KeybindingContribution</a></li>
+					<li><a href="../interfaces/core.tabbartoolbarcontribution.html" class="tsd-signature-type">TabBarToolbarContribution</a></li>
+					<li><a href="../interfaces/core.colorcontribution.html" class="tsd-signature-type">ColorContribution</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#_currentterminal" class="tsd-kind-icon">_current<wbr>Terminal</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#contextkeyservice" class="tsd-kind-icon">context<wbr>Key<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#filesystem" class="tsd-kind-icon">file<wbr>System</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#labelprovider" class="tsd-kind-icon">label<wbr>Provider</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#mostrecentlyusedterminalentries" class="tsd-kind-icon">most<wbr>Recently<wbr>Used<wbr>Terminal<wbr>Entries</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#ondidchangecurrentterminal" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Current<wbr>Terminal</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#ondidchangecurrentterminalemitter" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Current<wbr>Terminal<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#ondidcreateterminal" class="tsd-kind-icon">on<wbr>Did<wbr>Create<wbr>Terminal</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#ondidcreateterminalemitter" class="tsd-kind-icon">on<wbr>Did<wbr>Create<wbr>Terminal<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#quickpick" class="tsd-kind-icon">quick<wbr>Pick</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#selectionservice" class="tsd-kind-icon">selection<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#shell" class="tsd-kind-icon">shell</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#shellterminalserver" class="tsd-kind-icon">shell<wbr>Terminal<wbr>Server</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#widgetmanager" class="tsd-kind-icon">widget<wbr>Manager</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#workspaceservice" class="tsd-kind-icon">workspace<wbr>Service</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#all" class="tsd-kind-icon">all</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#currentterminal" class="tsd-kind-icon">current<wbr>Terminal</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#lastusedterminal" class="tsd-kind-icon">last<wbr>Used<wbr>Terminal</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#activateterminal" class="tsd-kind-icon">activate<wbr>Terminal</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#getbyid" class="tsd-kind-icon">get<wbr>ById</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#getbyterminalid" class="tsd-kind-icon">get<wbr>ByTerminal<wbr>Id</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#getdefaultshell" class="tsd-kind-icon">get<wbr>Default<wbr>Shell</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#getlastusedterminalid" class="tsd-kind-icon">get<wbr>Last<wbr>Used<wbr>Terminal<wbr>Id</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#getterminalref" class="tsd-kind-icon">get<wbr>Terminal<wbr>Ref</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#init" class="tsd-kind-icon">init</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#newterminal" class="tsd-kind-icon">new<wbr>Terminal</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#open" class="tsd-kind-icon">open</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#openactiveworkspaceterminal" class="tsd-kind-icon">open<wbr>Active<wbr>Workspace<wbr>Terminal</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#openinterminal" class="tsd-kind-icon">open<wbr>InTerminal</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#openterminal" class="tsd-kind-icon">open<wbr>Terminal</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#registercolors" class="tsd-kind-icon">register<wbr>Colors</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#registercommands" class="tsd-kind-icon">register<wbr>Commands</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#registerkeybindings" class="tsd-kind-icon">register<wbr>Keybindings</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#registermenus" class="tsd-kind-icon">register<wbr>Menus</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="terminal.terminalfrontendcontribution.html#registertoolbaritems" class="tsd-kind-icon">register<wbr>Toolbar<wbr>Items</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#selectterminalcwd" class="tsd-kind-icon">select<wbr>Terminal<wbr>Cwd</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#setcurrentterminal" class="tsd-kind-icon">set<wbr>Current<wbr>Terminal</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#setlastusedterminal" class="tsd-kind-icon">set<wbr>Last<wbr>Used<wbr>Terminal</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#splitterminal" class="tsd-kind-icon">split<wbr>Terminal</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="terminal.terminalfrontendcontribution.html#updatecurrentterminal" class="tsd-kind-icon">update<wbr>Current<wbr>Terminal</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Terminal<wbr>Frontend<wbr>Contribution<span class="tsd-signature-symbol">(</span>shell<span class="tsd-signature-symbol">: </span><a href="core.applicationshell.html" class="tsd-signature-type">ApplicationShell</a>, shellTerminalServer<span class="tsd-signature-symbol">: </span><a href="../modules/terminal.html#shellterminalserverproxy" class="tsd-signature-type">ShellTerminalServerProxy</a>, widgetManager<span class="tsd-signature-symbol">: </span><a href="core.widgetmanager.html" class="tsd-signature-type">WidgetManager</a>, fileSystem<span class="tsd-signature-symbol">: </span><a href="../interfaces/filesystem.filesystem-1.html" class="tsd-signature-type">FileSystem</a>, selectionService<span class="tsd-signature-symbol">: </span><a href="core.selectionservice.html" class="tsd-signature-type">SelectionService</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="terminal.terminalfrontendcontribution.html" class="tsd-signature-type">TerminalFrontendContribution</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L136">packages/terminal/src/browser/terminal-frontend-contribution.ts:136</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>shell: <a href="core.applicationshell.html" class="tsd-signature-type">ApplicationShell</a></h5>
+								</li>
+								<li>
+									<h5>shellTerminalServer: <a href="../modules/terminal.html#shellterminalserverproxy" class="tsd-signature-type">ShellTerminalServerProxy</a></h5>
+								</li>
+								<li>
+									<h5>widgetManager: <a href="core.widgetmanager.html" class="tsd-signature-type">WidgetManager</a></h5>
+								</li>
+								<li>
+									<h5>fileSystem: <a href="../interfaces/filesystem.filesystem-1.html" class="tsd-signature-type">FileSystem</a></h5>
+								</li>
+								<li>
+									<h5>selectionService: <a href="core.selectionservice.html" class="tsd-signature-type">SelectionService</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="terminal.terminalfrontendcontribution.html" class="tsd-signature-type">TerminalFrontendContribution</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="_currentterminal" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _current<wbr>Terminal</h3>
+					<div class="tsd-signature tsd-kind-icon">_current<wbr>Terminal<span class="tsd-signature-symbol">:</span> <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L181">packages/terminal/src/browser/terminal-frontend-contribution.ts:181</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="contextkeyservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> context<wbr>Key<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">context<wbr>Key<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="core.contextkeyservice.html" class="tsd-signature-type">ContextKeyService</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L162">packages/terminal/src/browser/terminal-frontend-contribution.ts:162</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="filesystem" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> file<wbr>System</h3>
+					<div class="tsd-signature tsd-kind-icon">file<wbr>System<span class="tsd-signature-symbol">:</span> <a href="../interfaces/filesystem.filesystem-1.html" class="tsd-signature-type">FileSystem</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L142">packages/terminal/src/browser/terminal-frontend-contribution.ts:142</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="labelprovider" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> label<wbr>Provider</h3>
+					<div class="tsd-signature tsd-kind-icon">label<wbr>Provider<span class="tsd-signature-symbol">:</span> <a href="core.labelprovider.html" class="tsd-signature-type">LabelProvider</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L147">packages/terminal/src/browser/terminal-frontend-contribution.ts:147</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="mostrecentlyusedterminalentries" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> most<wbr>Recently<wbr>Used<wbr>Terminal<wbr>Entries</h3>
+					<div class="tsd-signature tsd-kind-icon">most<wbr>Recently<wbr>Used<wbr>Terminal<wbr>Entries<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L201">packages/terminal/src/browser/terminal-frontend-contribution.ts:201</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ondidchangecurrentterminal" class="tsd-anchor"></a>
+					<h3>on<wbr>Did<wbr>Change<wbr>Current<wbr>Terminal</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Current<wbr>Terminal<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;this.onDidChangeCurrentTerminalEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/terminal.terminalservice.html">TerminalService</a>.<a href="../interfaces/terminal.terminalservice.html#ondidchangecurrentterminal">onDidChangeCurrentTerminal</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L159">packages/terminal/src/browser/terminal-frontend-contribution.ts:159</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="ondidchangecurrentterminalemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> on<wbr>Did<wbr>Change<wbr>Current<wbr>Terminal<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Current<wbr>Terminal<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="core.emitter.html" class="tsd-signature-type">Emitter</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new Emitter&lt;TerminalWidget | undefined&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L158">packages/terminal/src/browser/terminal-frontend-contribution.ts:158</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="ondidcreateterminal" class="tsd-anchor"></a>
+					<h3>on<wbr>Did<wbr>Create<wbr>Terminal</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Create<wbr>Terminal<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;this.onDidCreateTerminalEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/terminal.terminalservice.html">TerminalService</a>.<a href="../interfaces/terminal.terminalservice.html#ondidcreateterminal">onDidCreateTerminal</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L156">packages/terminal/src/browser/terminal-frontend-contribution.ts:156</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="ondidcreateterminalemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> on<wbr>Did<wbr>Create<wbr>Terminal<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Create<wbr>Terminal<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="core.emitter.html" class="tsd-signature-type">Emitter</a><span class="tsd-signature-symbol">&lt;</span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new Emitter&lt;TerminalWidget&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L155">packages/terminal/src/browser/terminal-frontend-contribution.ts:155</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="quickpick" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> quick<wbr>Pick</h3>
+					<div class="tsd-signature tsd-kind-icon">quick<wbr>Pick<span class="tsd-signature-symbol">:</span> <a href="../interfaces/core.quickpickservice.html" class="tsd-signature-type">QuickPickService</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L150">packages/terminal/src/browser/terminal-frontend-contribution.ts:150</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="selectionservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> selection<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">selection<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="core.selectionservice.html" class="tsd-signature-type">SelectionService</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L143">packages/terminal/src/browser/terminal-frontend-contribution.ts:143</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="shell" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> shell</h3>
+					<div class="tsd-signature tsd-kind-icon">shell<span class="tsd-signature-symbol">:</span> <a href="core.applicationshell.html" class="tsd-signature-type">ApplicationShell</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L139">packages/terminal/src/browser/terminal-frontend-contribution.ts:139</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="shellterminalserver" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> shell<wbr>Terminal<wbr>Server</h3>
+					<div class="tsd-signature tsd-kind-icon">shell<wbr>Terminal<wbr>Server<span class="tsd-signature-symbol">:</span> <a href="../modules/terminal.html#shellterminalserverproxy" class="tsd-signature-type">ShellTerminalServerProxy</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L140">packages/terminal/src/browser/terminal-frontend-contribution.ts:140</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="widgetmanager" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> widget<wbr>Manager</h3>
+					<div class="tsd-signature tsd-kind-icon">widget<wbr>Manager<span class="tsd-signature-symbol">:</span> <a href="core.widgetmanager.html" class="tsd-signature-type">WidgetManager</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L141">packages/terminal/src/browser/terminal-frontend-contribution.ts:141</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="workspaceservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> workspace<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">workspace<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="workspace.workspaceservice.html" class="tsd-signature-type">WorkspaceService</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L153">packages/terminal/src/browser/terminal-frontend-contribution.ts:153</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="all" class="tsd-anchor"></a>
+					<h3>all</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> all<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L252">packages/terminal/src/browser/terminal-frontend-contribution.ts:252</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="currentterminal" class="tsd-anchor"></a>
+					<h3>current<wbr>Terminal</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> currentTerminal<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L182">packages/terminal/src/browser/terminal-frontend-contribution.ts:182</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="lastusedterminal" class="tsd-anchor"></a>
+					<h3>last<wbr>Used<wbr>Terminal</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> lastUsedTerminal<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L210">packages/terminal/src/browser/terminal-frontend-contribution.ts:210</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="activateterminal" class="tsd-anchor"></a>
+					<h3>activate<wbr>Terminal</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">activate<wbr>Terminal<span class="tsd-signature-symbol">(</span>widget<span class="tsd-signature-symbol">: </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a>, widgetOptions<span class="tsd-signature-symbol">?: </span><a href="../interfaces/core.applicationshell.widgetoptions.html" class="tsd-signature-type">WidgetOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L542">packages/terminal/src/browser/terminal-frontend-contribution.ts:542</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>widget: <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> widgetOptions: <a href="../interfaces/core.applicationshell.widgetoptions.html" class="tsd-signature-type">WidgetOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getbyid" class="tsd-anchor"></a>
+					<h3>get<wbr>ById</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>ById<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/terminal.terminalservice.html">TerminalService</a>.<a href="../interfaces/terminal.terminalservice.html#getbyid">getById</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L256">packages/terminal/src/browser/terminal-frontend-contribution.ts:256</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>id: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getbyterminalid" class="tsd-anchor"></a>
+					<h3>get<wbr>ByTerminal<wbr>Id</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>ByTerminal<wbr>Id<span class="tsd-signature-symbol">(</span>terminalId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/terminal.terminalservice.html">TerminalService</a>.<a href="../interfaces/terminal.terminalservice.html#getbyterminalid">getByTerminalId</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L260">packages/terminal/src/browser/terminal-frontend-contribution.ts:260</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>terminalId: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getdefaultshell" class="tsd-anchor"></a>
+					<h3>get<wbr>Default<wbr>Shell</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Default<wbr>Shell<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/terminal.terminalservice.html">TerminalService</a>.<a href="../interfaces/terminal.terminalservice.html#getdefaultshell">getDefaultShell</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L264">packages/terminal/src/browser/terminal-frontend-contribution.ts:264</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="getlastusedterminalid" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> get<wbr>Last<wbr>Used<wbr>Terminal<wbr>Id</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Last<wbr>Used<wbr>Terminal<wbr>Id<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L203">packages/terminal/src/browser/terminal-frontend-contribution.ts:203</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="getterminalref" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> get<wbr>Terminal<wbr>Ref</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Terminal<wbr>Ref<span class="tsd-signature-symbol">(</span>widget<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L580">packages/terminal/src/browser/terminal-frontend-contribution.ts:580</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> widget: <span class="tsd-signature-type">Widget</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="init" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> init</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">init<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L165">packages/terminal/src/browser/terminal-frontend-contribution.ts:165</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="newterminal" class="tsd-anchor"></a>
+					<h3>new<wbr>Terminal</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new<wbr>Terminal<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="../interfaces/terminal.terminalwidgetoptions.html" class="tsd-signature-type">TerminalWidgetOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/terminal.terminalservice.html">TerminalService</a>.<a href="../interfaces/terminal.terminalservice.html#newterminal">newTerminal</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L534">packages/terminal/src/browser/terminal-frontend-contribution.ts:534</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>options: <a href="../interfaces/terminal.terminalwidgetoptions.html" class="tsd-signature-type">TerminalWidgetOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="open" class="tsd-anchor"></a>
+					<h3>open</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">open<span class="tsd-signature-symbol">(</span>widget<span class="tsd-signature-symbol">: </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/core.widgetopeneroptions.html" class="tsd-signature-type">WidgetOpenerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/terminal.terminalservice.html">TerminalService</a>.<a href="../interfaces/terminal.terminalservice.html#open">open</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L547">packages/terminal/src/browser/terminal-frontend-contribution.ts:547</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>widget: <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/core.widgetopeneroptions.html" class="tsd-signature-type">WidgetOpenerOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="openactiveworkspaceterminal" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> open<wbr>Active<wbr>Workspace<wbr>Terminal</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">open<wbr>Active<wbr>Workspace<wbr>Terminal<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/core.applicationshell.widgetoptions.html" class="tsd-signature-type">WidgetOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L592">packages/terminal/src/browser/terminal-frontend-contribution.ts:592</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/core.applicationshell.widgetoptions.html" class="tsd-signature-type">WidgetOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="openinterminal" class="tsd-anchor"></a>
+					<h3>open<wbr>InTerminal</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">open<wbr>InTerminal<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L357">packages/terminal/src/browser/terminal-frontend-contribution.ts:357</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="openterminal" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> open<wbr>Terminal</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">open<wbr>Terminal<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/core.applicationshell.widgetoptions.html" class="tsd-signature-type">WidgetOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L585">packages/terminal/src/browser/terminal-frontend-contribution.ts:585</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/core.applicationshell.widgetoptions.html" class="tsd-signature-type">WidgetOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registercolors" class="tsd-anchor"></a>
+					<h3>register<wbr>Colors</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Colors<span class="tsd-signature-symbol">(</span>colors<span class="tsd-signature-symbol">: </span><a href="core.colorregistry.html" class="tsd-signature-type">ColorRegistry</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.colorcontribution.html">ColorContribution</a>.<a href="../interfaces/core.colorcontribution.html#registercolors">registerColors</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L601">packages/terminal/src/browser/terminal-frontend-contribution.ts:601</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>It should be aligned with <a href="https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors">https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors</a></p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>colors: <a href="core.colorregistry.html" class="tsd-signature-type">ColorRegistry</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registercommands" class="tsd-anchor"></a>
+					<h3>register<wbr>Commands</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Commands<span class="tsd-signature-symbol">(</span>commands<span class="tsd-signature-symbol">: </span><a href="core.commandregistry.html" class="tsd-signature-type">CommandRegistry</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.commandcontribution.html">CommandContribution</a>.<a href="../interfaces/core.commandcontribution.html#registercommands">registerCommands</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L268">packages/terminal/src/browser/terminal-frontend-contribution.ts:268</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>commands: <a href="core.commandregistry.html" class="tsd-signature-type">CommandRegistry</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registerkeybindings" class="tsd-anchor"></a>
+					<h3>register<wbr>Keybindings</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Keybindings<span class="tsd-signature-symbol">(</span>keybindings<span class="tsd-signature-symbol">: </span><a href="core.keybindingregistry.html" class="tsd-signature-type">KeybindingRegistry</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.keybindingcontribution.html">KeybindingContribution</a>.<a href="../interfaces/core.keybindingcontribution.html#registerkeybindings">registerKeybindings</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L399">packages/terminal/src/browser/terminal-frontend-contribution.ts:399</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>keybindings: <a href="core.keybindingregistry.html" class="tsd-signature-type">KeybindingRegistry</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registermenus" class="tsd-anchor"></a>
+					<h3>register<wbr>Menus</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Menus<span class="tsd-signature-symbol">(</span>menus<span class="tsd-signature-symbol">: </span><a href="core.menumodelregistry.html" class="tsd-signature-type">MenuModelRegistry</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.menucontribution.html">MenuContribution</a>.<a href="../interfaces/core.menucontribution.html#registermenus">registerMenus</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L373">packages/terminal/src/browser/terminal-frontend-contribution.ts:373</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>menus: <a href="core.menumodelregistry.html" class="tsd-signature-type">MenuModelRegistry</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registertoolbaritems" class="tsd-anchor"></a>
+					<h3>register<wbr>Toolbar<wbr>Items</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Toolbar<wbr>Items<span class="tsd-signature-symbol">(</span>toolbar<span class="tsd-signature-symbol">: </span><a href="core.tabbartoolbarregistry.html" class="tsd-signature-type">TabBarToolbarRegistry</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.tabbartoolbarcontribution.html">TabBarToolbarContribution</a>.<a href="../interfaces/core.tabbartoolbarcontribution.html#registertoolbaritems">registerToolbarItems</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L390">packages/terminal/src/browser/terminal-frontend-contribution.ts:390</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>toolbar: <a href="core.tabbartoolbarregistry.html" class="tsd-signature-type">TabBarToolbarRegistry</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="selectterminalcwd" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> select<wbr>Terminal<wbr>Cwd</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">select<wbr>Terminal<wbr>Cwd<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L566">packages/terminal/src/browser/terminal-frontend-contribution.ts:566</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="setcurrentterminal" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> set<wbr>Current<wbr>Terminal</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Current<wbr>Terminal<span class="tsd-signature-symbol">(</span>current<span class="tsd-signature-symbol">: </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L185">packages/terminal/src/browser/terminal-frontend-contribution.ts:185</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>current: <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="setlastusedterminal" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> set<wbr>Last<wbr>Used<wbr>Terminal</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Last<wbr>Used<wbr>Terminal<span class="tsd-signature-symbol">(</span>lastUsedTerminal<span class="tsd-signature-symbol">: </span><a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L217">packages/terminal/src/browser/terminal-frontend-contribution.ts:217</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>lastUsedTerminal: <a href="terminal.terminalwidget.html" class="tsd-signature-type">TerminalWidget</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="splitterminal" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> split<wbr>Terminal</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">split<wbr>Terminal<span class="tsd-signature-symbol">(</span>widget<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L573">packages/terminal/src/browser/terminal-frontend-contribution.ts:573</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> widget: <span class="tsd-signature-type">Widget</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="updatecurrentterminal" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> update<wbr>Current<wbr>Terminal</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">update<wbr>Current<wbr>Terminal<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/terminal/src/browser/terminal-frontend-contribution.ts#L191">packages/terminal/src/browser/terminal-frontend-contribution.ts:191</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-external-module">
+						<a href="../modules/terminal.html">terminal</a>
+						<ul>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/terminal.ibaseterminalserver.html">IBase<wbr>Terminal<wbr>Server</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/terminal.terminalcommands.html">Terminal<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/terminal.terminalkeybindingcontexts.html">Terminal<wbr>Keybinding<wbr>Contexts</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/terminal.terminalmenus.html">Terminal<wbr>Menus</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-external-module">
+						<a href="terminal.terminalfrontendcontribution.html" class="tsd-kind-icon">Terminal<wbr>Frontend<wbr>Contribution</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#_currentterminal" class="tsd-kind-icon">_current<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#contextkeyservice" class="tsd-kind-icon">context<wbr>Key<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#filesystem" class="tsd-kind-icon">file<wbr>System</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#labelprovider" class="tsd-kind-icon">label<wbr>Provider</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#mostrecentlyusedterminalentries" class="tsd-kind-icon">most<wbr>Recently<wbr>Used<wbr>Terminal<wbr>Entries</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#ondidchangecurrentterminal" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Current<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#ondidchangecurrentterminalemitter" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Current<wbr>Terminal<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#ondidcreateterminal" class="tsd-kind-icon">on<wbr>Did<wbr>Create<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#ondidcreateterminalemitter" class="tsd-kind-icon">on<wbr>Did<wbr>Create<wbr>Terminal<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#quickpick" class="tsd-kind-icon">quick<wbr>Pick</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#selectionservice" class="tsd-kind-icon">selection<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#shell" class="tsd-kind-icon">shell</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#shellterminalserver" class="tsd-kind-icon">shell<wbr>Terminal<wbr>Server</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#widgetmanager" class="tsd-kind-icon">widget<wbr>Manager</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#workspaceservice" class="tsd-kind-icon">workspace<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#all" class="tsd-kind-icon">all</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#currentterminal" class="tsd-kind-icon">current<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#lastusedterminal" class="tsd-kind-icon">last<wbr>Used<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#activateterminal" class="tsd-kind-icon">activate<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#getbyid" class="tsd-kind-icon">get<wbr>ById</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#getbyterminalid" class="tsd-kind-icon">get<wbr>ByTerminal<wbr>Id</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#getdefaultshell" class="tsd-kind-icon">get<wbr>Default<wbr>Shell</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#getlastusedterminalid" class="tsd-kind-icon">get<wbr>Last<wbr>Used<wbr>Terminal<wbr>Id</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#getterminalref" class="tsd-kind-icon">get<wbr>Terminal<wbr>Ref</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#init" class="tsd-kind-icon">init</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#newterminal" class="tsd-kind-icon">new<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#open" class="tsd-kind-icon">open</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#openactiveworkspaceterminal" class="tsd-kind-icon">open<wbr>Active<wbr>Workspace<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#openinterminal" class="tsd-kind-icon">open<wbr>InTerminal</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#openterminal" class="tsd-kind-icon">open<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#registercolors" class="tsd-kind-icon">register<wbr>Colors</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#registercommands" class="tsd-kind-icon">register<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#registerkeybindings" class="tsd-kind-icon">register<wbr>Keybindings</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#registermenus" class="tsd-kind-icon">register<wbr>Menus</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="terminal.terminalfrontendcontribution.html#registertoolbaritems" class="tsd-kind-icon">register<wbr>Toolbar<wbr>Items</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#selectterminalcwd" class="tsd-kind-icon">select<wbr>Terminal<wbr>Cwd</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#setcurrentterminal" class="tsd-kind-icon">set<wbr>Current<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#setlastusedterminal" class="tsd-kind-icon">set<wbr>Last<wbr>Used<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#splitterminal" class="tsd-kind-icon">split<wbr>Terminal</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="terminal.terminalfrontendcontribution.html#updatecurrentterminal" class="tsd-kind-icon">update<wbr>Current<wbr>Terminal</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

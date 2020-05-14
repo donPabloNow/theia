@@ -1,0 +1,871 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>EditorPreviewManager | Theia TypeDoc</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Theia TypeDoc</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/editor_preview.html">editor-preview</a>
+				</li>
+				<li>
+					<a href="editor_preview.editorpreviewmanager.html">EditorPreviewManager</a>
+				</li>
+			</ul>
+			<h1>Class EditorPreviewManager</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Class for managing an editor preview widget.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="core.widgetopenhandler.html" class="tsd-signature-type">WidgetOpenHandler</a><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">&gt;</span>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">EditorPreviewManager</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/core.openhandler.html" class="tsd-signature-type">OpenHandler</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#currenteditorpreview" class="tsd-kind-icon">current<wbr>Editor<wbr>Preview</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#editormanager" class="tsd-kind-icon">editor<wbr>Manager</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite"><a href="editor_preview.editorpreviewmanager.html#id" class="tsd-kind-icon">id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="editor_preview.editorpreviewmanager.html#label" class="tsd-kind-icon">label</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="editor_preview.editorpreviewmanager.html#oncreated" class="tsd-kind-icon">on<wbr>Created</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#oncreatedemitter" class="tsd-kind-icon">on<wbr>Created<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#preferences" class="tsd-kind-icon">preferences</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#shell" class="tsd-kind-icon">shell</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#widgetmanager" class="tsd-kind-icon">widget<wbr>Manager</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-inherited">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="editor_preview.editorpreviewmanager.html#all" class="tsd-kind-icon">all</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="editor_preview.editorpreviewmanager.html#canhandle" class="tsd-kind-icon">can<wbr>Handle</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="editor_preview.editorpreviewmanager.html#closeall" class="tsd-kind-icon">close<wbr>All</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#createwidgetoptions" class="tsd-kind-icon">create<wbr>Widget<wbr>Options</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#doopen" class="tsd-kind-icon">do<wbr>Open</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="editor_preview.editorpreviewmanager.html#getbyuri" class="tsd-kind-icon">get<wbr>ByUri</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="editor_preview.editorpreviewmanager.html#getorcreatebyuri" class="tsd-kind-icon">get<wbr>OrCreate<wbr>ByUri</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#getorcreatewidget" class="tsd-kind-icon">get<wbr>OrCreate<wbr>Widget</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#getwidget" class="tsd-kind-icon">get<wbr>Widget</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#handlepreviewwidgetcreated" class="tsd-kind-icon">handle<wbr>Preview<wbr>Widget<wbr>Created</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#init" class="tsd-kind-icon">init</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#iscurrentpreviewuri" class="tsd-kind-icon">is<wbr>Current<wbr>Preview<wbr>Uri</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="editor_preview.editorpreviewmanager.html#open" class="tsd-kind-icon">open</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#opennewpreview" class="tsd-kind-icon">open<wbr>New<wbr>Preview</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#pincurrenteditor" class="tsd-kind-icon">pin<wbr>Current<wbr>Editor</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="editor_preview.editorpreviewmanager.html#replacecurrentpreview" class="tsd-kind-icon">replace<wbr>Current<wbr>Preview</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="currenteditorpreview" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> current<wbr>Editor<wbr>Preview</h3>
+					<div class="tsd-signature tsd-kind-icon">current<wbr>Editor<wbr>Preview<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L43">packages/editor-preview/src/browser/editor-preview-manager.ts:43</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="editormanager" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> editor<wbr>Manager</h3>
+					<div class="tsd-signature tsd-kind-icon">editor<wbr>Manager<span class="tsd-signature-symbol">:</span> <a href="editor.editormanager.html" class="tsd-signature-type">EditorManager</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L46">packages/editor-preview/src/browser/editor-preview-manager.ts:46</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
+					<a name="id" class="tsd-anchor"></a>
+					<h3>id</h3>
+					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;EditorPreviewWidgetFactory.ID</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/core.openhandler.html">OpenHandler</a>.<a href="../interfaces/core.openhandler.html#id">id</a></p>
+						<p>Overrides <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#id">id</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L39">packages/editor-preview/src/browser/editor-preview-manager.ts:39</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="label" class="tsd-anchor"></a>
+					<h3>label</h3>
+					<div class="tsd-signature tsd-kind-icon">label<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Code Editor Preview"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;Code Editor Preview&quot;</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/core.openhandler.html">OpenHandler</a>.<a href="../interfaces/core.openhandler.html#label">label</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L41">packages/editor-preview/src/browser/editor-preview-manager.ts:41</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="oncreated" class="tsd-anchor"></a>
+					<h3>on<wbr>Created</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Created<span class="tsd-signature-symbol">:</span> <a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;this.onCreatedEmitter.event</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#oncreated">onCreated</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/widget-open-handler.ts#L53">packages/core/src/browser/widget-open-handler.ts:53</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Emit when a new widget is created.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="oncreatedemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> on<wbr>Created<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Created<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="core.emitter.html" class="tsd-signature-type">Emitter</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">W</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new Emitter&lt;W&gt;()</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#oncreatedemitter">onCreatedEmitter</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/widget-open-handler.ts#L49">packages/core/src/browser/widget-open-handler.ts:49</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="preferences" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> preferences</h3>
+					<div class="tsd-signature tsd-kind-icon">preferences<span class="tsd-signature-symbol">:</span> <a href="../modules/editor_preview.html#editorpreviewpreferences" class="tsd-signature-type">EditorPreviewPreferences</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L52">packages/editor-preview/src/browser/editor-preview-manager.ts:52</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+					<a name="shell" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> shell</h3>
+					<div class="tsd-signature tsd-kind-icon">shell<span class="tsd-signature-symbol">:</span> <a href="core.applicationshell.html" class="tsd-signature-type">ApplicationShell</a></div>
+					<aside class="tsd-sources">
+						<p>Overrides <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#shell">shell</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L49">packages/editor-preview/src/browser/editor-preview-manager.ts:49</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="widgetmanager" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> widget<wbr>Manager</h3>
+					<div class="tsd-signature tsd-kind-icon">widget<wbr>Manager<span class="tsd-signature-symbol">:</span> <a href="core.widgetmanager.html" class="tsd-signature-type">WidgetManager</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#widgetmanager">widgetManager</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/widget-open-handler.ts#L47">packages/core/src/browser/widget-open-handler.ts:47</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+					<a name="all" class="tsd-anchor"></a>
+					<h3>all</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> all<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#all">all</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/widget-open-handler.ts#L118">packages/core/src/browser/widget-open-handler.ts:118</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>All opened widgets.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">(</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<a name="canhandle" class="tsd-anchor"></a>
+					<h3>can<wbr>Handle</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">can<wbr>Handle<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-signature-type">PreviewEditorOpenerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.openhandler.html">OpenHandler</a>.<a href="../interfaces/core.openhandler.html#canhandle">canHandle</a></p>
+								<p>Overrides <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#canhandle">canHandle</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L104">packages/editor-preview/src/browser/editor-preview-manager.ts:104</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-signature-type">PreviewEditorOpenerOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="closeall" class="tsd-anchor"></a>
+					<h3>close<wbr>All</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">close<wbr>All<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/core.applicationshell.closeoptions.html" class="tsd-signature-type">CloseOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">(</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#closeall">closeAll</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/widget-open-handler.ts#L134">packages/core/src/browser/widget-open-handler.ts:134</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/core.applicationshell.closeoptions.html" class="tsd-signature-type">CloseOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">(</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+					<a name="createwidgetoptions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> create<wbr>Widget<wbr>Options</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Widget<wbr>Options<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/core.widgetopeneroptions.html" class="tsd-signature-type">WidgetOpenerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/editor_preview.editorpreviewwidgetoptions.html" class="tsd-signature-type">EditorPreviewWidgetOptions</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#createwidgetoptions">createWidgetOptions</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L147">packages/editor-preview/src/browser/editor-preview-manager.ts:147</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/core.widgetopeneroptions.html" class="tsd-signature-type">WidgetOpenerOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/editor_preview.editorpreviewwidgetoptions.html" class="tsd-signature-type">EditorPreviewWidgetOptions</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="doopen" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> do<wbr>Open</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">do<wbr>Open<span class="tsd-signature-symbol">(</span>widget<span class="tsd-signature-symbol">: </span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/core.widgetopeneroptions.html" class="tsd-signature-type">WidgetOpenerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#doopen">doOpen</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/widget-open-handler.ts#L84">packages/core/src/browser/widget-open-handler.ts:84</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>widget: <a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/core.widgetopeneroptions.html" class="tsd-signature-type">WidgetOpenerOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getbyuri" class="tsd-anchor"></a>
+					<h3>get<wbr>ByUri</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>ByUri<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#getbyuri">getByUri</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/widget-open-handler.ts#L102">packages/core/src/browser/widget-open-handler.ts:102</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Return an existing widget for the given uri.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getorcreatebyuri" class="tsd-anchor"></a>
+					<h3>get<wbr>OrCreate<wbr>ByUri</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>OrCreate<wbr>ByUri<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#getorcreatebyuri">getOrCreateByUri</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/widget-open-handler.ts#L111">packages/core/src/browser/widget-open-handler.ts:111</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Return an existing widget for the given uri or creates a new one.</p>
+								</div>
+								<p>It does not open a widget, use <code>open</code> instead.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="getorcreatewidget" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> get<wbr>OrCreate<wbr>Widget</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>OrCreate<wbr>Widget<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/core.widgetopeneroptions.html" class="tsd-signature-type">WidgetOpenerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#getorcreatewidget">getOrCreateWidget</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/widget-open-handler.ts#L127">packages/core/src/browser/widget-open-handler.ts:127</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/core.widgetopeneroptions.html" class="tsd-signature-type">WidgetOpenerOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="getwidget" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> get<wbr>Widget</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Widget<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/core.widgetopeneroptions.html" class="tsd-signature-type">WidgetOpenerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#getwidget">getWidget</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/widget-open-handler.ts#L122">packages/core/src/browser/widget-open-handler.ts:122</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/core.widgetopeneroptions.html" class="tsd-signature-type">WidgetOpenerOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="handlepreviewwidgetcreated" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> handle<wbr>Preview<wbr>Widget<wbr>Created</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">handle<wbr>Preview<wbr>Widget<wbr>Created<span class="tsd-signature-symbol">(</span>widget<span class="tsd-signature-symbol">: </span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L74">packages/editor-preview/src/browser/editor-preview-manager.ts:74</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>widget: <a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+					<a name="init" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> init</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">init<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#init">init</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L55">packages/editor-preview/src/browser/editor-preview-manager.ts:55</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="iscurrentpreviewuri" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> is<wbr>Current<wbr>Preview<wbr>Uri</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Current<wbr>Preview<wbr>Uri<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L98">packages/editor-preview/src/browser/editor-preview-manager.ts:98</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<a name="open" class="tsd-anchor"></a>
+					<h3>open</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">open<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-signature-type">PreviewEditorOpenerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="core.widgetopenhandler.html">WidgetOpenHandler</a>.<a href="core.widgetopenhandler.html#open">open</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L111">packages/editor-preview/src/browser/editor-preview-manager.ts:111</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> options: <a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-signature-type">PreviewEditorOpenerOptions</a><span class="tsd-signature-symbol"> =&nbsp;{}</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="opennewpreview" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> open<wbr>New<wbr>Preview</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">open<wbr>New<wbr>Preview<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, options<span class="tsd-signature-symbol">: </span><a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-signature-type">PreviewEditorOpenerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L143">packages/editor-preview/src/browser/editor-preview-manager.ts:143</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>options: <a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-signature-type">PreviewEditorOpenerOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="pincurrenteditor" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> pin<wbr>Current<wbr>Editor</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">pin<wbr>Current<wbr>Editor<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, options<span class="tsd-signature-symbol">: </span><a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-signature-type">PreviewEditorOpenerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L121">packages/editor-preview/src/browser/editor-preview-manager.ts:121</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>options: <a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-signature-type">PreviewEditorOpenerOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor.editorwidget.html" class="tsd-signature-type">EditorWidget</a><span class="tsd-signature-symbol"> | </span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="replacecurrentpreview" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> replace<wbr>Current<wbr>Preview</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">replace<wbr>Current<wbr>Preview<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="core.uri.html" class="tsd-signature-type">URI</a>, options<span class="tsd-signature-symbol">: </span><a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-signature-type">PreviewEditorOpenerOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/editor-preview/src/browser/editor-preview-manager.ts#L134">packages/editor-preview/src/browser/editor-preview-manager.ts:134</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="core.uri.html" class="tsd-signature-type">URI</a></h5>
+								</li>
+								<li>
+									<h5>options: <a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-signature-type">PreviewEditorOpenerOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="editor_preview.editorpreviewwidget.html" class="tsd-signature-type">EditorPreviewWidget</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-external-module">
+						<a href="../modules/editor_preview.html">editor-<wbr>preview</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-external-module">
+						<a href="editor_preview.editorpreviewmanager.html" class="tsd-kind-icon">Editor<wbr>Preview<wbr>Manager</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#currenteditorpreview" class="tsd-kind-icon">current<wbr>Editor<wbr>Preview</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#editormanager" class="tsd-kind-icon">editor<wbr>Manager</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
+								<a href="editor_preview.editorpreviewmanager.html#id" class="tsd-kind-icon">id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="editor_preview.editorpreviewmanager.html#label" class="tsd-kind-icon">label</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="editor_preview.editorpreviewmanager.html#oncreated" class="tsd-kind-icon">on<wbr>Created</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#oncreatedemitter" class="tsd-kind-icon">on<wbr>Created<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#preferences" class="tsd-kind-icon">preferences</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#shell" class="tsd-kind-icon">shell</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#widgetmanager" class="tsd-kind-icon">widget<wbr>Manager</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="editor_preview.editorpreviewmanager.html#all" class="tsd-kind-icon">all</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+								<a href="editor_preview.editorpreviewmanager.html#canhandle" class="tsd-kind-icon">can<wbr>Handle</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="editor_preview.editorpreviewmanager.html#closeall" class="tsd-kind-icon">close<wbr>All</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#createwidgetoptions" class="tsd-kind-icon">create<wbr>Widget<wbr>Options</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#doopen" class="tsd-kind-icon">do<wbr>Open</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="editor_preview.editorpreviewmanager.html#getbyuri" class="tsd-kind-icon">get<wbr>ByUri</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="editor_preview.editorpreviewmanager.html#getorcreatebyuri" class="tsd-kind-icon">get<wbr>OrCreate<wbr>ByUri</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#getorcreatewidget" class="tsd-kind-icon">get<wbr>OrCreate<wbr>Widget</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#getwidget" class="tsd-kind-icon">get<wbr>Widget</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#handlepreviewwidgetcreated" class="tsd-kind-icon">handle<wbr>Preview<wbr>Widget<wbr>Created</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#init" class="tsd-kind-icon">init</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#iscurrentpreviewuri" class="tsd-kind-icon">is<wbr>Current<wbr>Preview<wbr>Uri</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+								<a href="editor_preview.editorpreviewmanager.html#open" class="tsd-kind-icon">open</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#opennewpreview" class="tsd-kind-icon">open<wbr>New<wbr>Preview</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#pincurrenteditor" class="tsd-kind-icon">pin<wbr>Current<wbr>Editor</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="editor_preview.editorpreviewmanager.html#replacecurrentpreview" class="tsd-kind-icon">replace<wbr>Current<wbr>Preview</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-class tsd-parent-kind-external-module">
+						<a href="editor_preview.editorpreviewwidget.html" class="tsd-kind-icon">Editor<wbr>Preview<wbr>Widget</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-external-module">
+						<a href="editor_preview.editorpreviewwidgetfactory.html" class="tsd-kind-icon">Editor<wbr>Preview<wbr>Widget<wbr>Factory</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="../interfaces/editor_preview.editorpreviewconfiguration.html" class="tsd-kind-icon">Editor<wbr>Preview<wbr>Configuration</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="../interfaces/editor_preview.editorpreviewwidgetoptions.html" class="tsd-kind-icon">Editor<wbr>Preview<wbr>Widget<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="../interfaces/editor_preview.previeweditoropeneroptions.html" class="tsd-kind-icon">Preview<wbr>Editor<wbr>Opener<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="../interfaces/editor_preview.previeweditorpinnedevent.html" class="tsd-kind-icon">Preview<wbr>Editor<wbr>Pinned<wbr>Event</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="../interfaces/editor_preview.previewviewstate.html" class="tsd-kind-icon">Preview<wbr>View<wbr>State</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-external-module">
+						<a href="../modules/editor_preview.html#editorpreviewpreferences" class="tsd-kind-icon">Editor<wbr>Preview<wbr>Preferences</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module">
+						<a href="../modules/editor_preview.html#editorpreviewpreferences-1" class="tsd-kind-icon">Editor<wbr>Preview<wbr>Preferences</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../modules/editor_preview.html#preview_title_class" class="tsd-kind-icon">PREVIEW_<wbr>TITLE_<wbr>CLASS</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="../modules/editor_preview.html#bindeditorpreviewpreferences" class="tsd-kind-icon">bind<wbr>Editor<wbr>Preview<wbr>Preferences</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="../modules/editor_preview.html#createeditorpreviewpreferences" class="tsd-kind-icon">create<wbr>Editor<wbr>Preview<wbr>Preferences</a>
+					</li>
+					<li class=" tsd-kind-object-literal tsd-parent-kind-external-module">
+						<a href="../modules/editor_preview.html#editorpreviewconfigschema" class="tsd-kind-icon">Editor<wbr>Preview<wbr>Config<wbr>Schema</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

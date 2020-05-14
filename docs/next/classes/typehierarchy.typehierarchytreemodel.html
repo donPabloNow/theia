@@ -1,0 +1,1632 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>TypeHierarchyTreeModel | Theia TypeDoc</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Theia TypeDoc</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/typehierarchy.html">typehierarchy</a>
+				</li>
+				<li>
+					<a href="typehierarchy.typehierarchytreemodel.html">TypeHierarchyTreeModel</a>
+				</li>
+			</ul>
+			<h1>Class TypeHierarchyTreeModel</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="core.treemodelimpl.html" class="tsd-signature-type">TreeModelImpl</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">TypeHierarchyTreeModel</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/core.treemodel.html" class="tsd-signature-type">TreeModel</a></li>
+					<li><a href="../interfaces/core.selectionprovider.html" class="tsd-signature-type">SelectionProvider</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Interfaces</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-interface tsd-parent-kind-class"><a href="../interfaces/typehierarchy.typehierarchytreemodel.state.html" class="tsd-kind-icon">State</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-private-protected">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#expansionservice" class="tsd-kind-icon">expansion<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#logger" class="tsd-kind-icon">logger</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#navigationservice" class="tsd-kind-icon">navigation<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#onchangedemitter" class="tsd-kind-icon">on<wbr>Changed<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#onopennodeemitter" class="tsd-kind-icon">on<wbr>Open<wbr>Node<wbr>Emitter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#selectionservice" class="tsd-kind-icon">selection<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#todispose" class="tsd-kind-icon">to<wbr>Dispose</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#tree" class="tsd-kind-icon">tree</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#treesearch" class="tsd-kind-icon">tree<wbr>Search</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#typehierarchyserviceprovider" class="tsd-kind-icon">type<wbr>Hierarchy<wbr>Service<wbr>Provider</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-inherited">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#onchanged" class="tsd-kind-icon">on<wbr>Changed</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#ondidchangebusy" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Busy</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#onexpansionchanged" class="tsd-kind-icon">on<wbr>Expansion<wbr>Changed</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#onnoderefreshed" class="tsd-kind-icon">on<wbr>Node<wbr>Refreshed</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#onopennode" class="tsd-kind-icon">on<wbr>Open<wbr>Node</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#onselectionchanged" class="tsd-kind-icon">on<wbr>Selection<wbr>Changed</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#root" class="tsd-kind-icon">root</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#selectednodes" class="tsd-kind-icon">selected<wbr>Nodes</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#addselection" class="tsd-kind-icon">add<wbr>Selection</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#cannavigatebackward" class="tsd-kind-icon">can<wbr>Navigate<wbr>Backward</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#cannavigateforward" class="tsd-kind-icon">can<wbr>Navigate<wbr>Forward</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#collapseall" class="tsd-kind-icon">collapse<wbr>All</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#collapsenode" class="tsd-kind-icon">collapse<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#createbackwarditerator" class="tsd-kind-icon">create<wbr>Backward<wbr>Iterator</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#createiterator" class="tsd-kind-icon">create<wbr>Iterator</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#dispose" class="tsd-kind-icon">dispose</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#dogetnextnode" class="tsd-kind-icon">do<wbr>Get<wbr>Next<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#donavigate" class="tsd-kind-icon">do<wbr>Navigate</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#doopennode" class="tsd-kind-icon">do<wbr>Open<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#expandnode" class="tsd-kind-icon">expand<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#firechanged" class="tsd-kind-icon">fire<wbr>Changed</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="typehierarchy.typehierarchytreemodel.html#flipdirection" class="tsd-kind-icon">flip<wbr>Direction</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#getnextselectablenode" class="tsd-kind-icon">get<wbr>Next<wbr>Selectable<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#getnode" class="tsd-kind-icon">get<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#getprevselectablenode" class="tsd-kind-icon">get<wbr>Prev<wbr>Selectable<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#handleexpansion" class="tsd-kind-icon">handle<wbr>Expansion</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#init" class="tsd-kind-icon">init</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="typehierarchy.typehierarchytreemodel.html#initialize" class="tsd-kind-icon">initialize</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#markasbusy" class="tsd-kind-icon">mark<wbr>AsBusy</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#navigatebackward" class="tsd-kind-icon">navigate<wbr>Backward</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#navigateforward" class="tsd-kind-icon">navigate<wbr>Forward</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#navigateto" class="tsd-kind-icon">navigate<wbr>To</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#opennode" class="tsd-kind-icon">open<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#refresh" class="tsd-kind-icon">refresh</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#restorestate" class="tsd-kind-icon">restore<wbr>State</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="typehierarchy.typehierarchytreemodel.html#selectifancestorofselected" class="tsd-kind-icon">select<wbr>IfAncestor<wbr>OfSelected</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#selectnextnode" class="tsd-kind-icon">select<wbr>Next<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#selectnode" class="tsd-kind-icon">select<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#selectparent" class="tsd-kind-icon">select<wbr>Parent</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#selectprevnode" class="tsd-kind-icon">select<wbr>Prev<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#selectrange" class="tsd-kind-icon">select<wbr>Range</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#storestate" class="tsd-kind-icon">store<wbr>State</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#togglenode" class="tsd-kind-icon">toggle<wbr>Node</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#togglenodeexpansion" class="tsd-kind-icon">toggle<wbr>Node<wbr>Expansion</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="typehierarchy.typehierarchytreemodel.html#validatenode" class="tsd-kind-icon">validate<wbr>Node</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private-protected">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="expansionservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> expansion<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">expansion<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="../interfaces/core.treeexpansionservice.html" class="tsd-signature-type">TreeExpansionService</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#expansionservice">expansionService</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L145">packages/core/src/browser/tree/tree-model.ts:145</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="logger" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> logger</h3>
+					<div class="tsd-signature tsd-kind-icon">logger<span class="tsd-signature-symbol">:</span> <a href="../interfaces/core.ilogger.html" class="tsd-signature-type">ILogger</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#logger">logger</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L142">packages/core/src/browser/tree/tree-model.ts:142</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="navigationservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> navigation<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">navigation<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="core.treenavigationservice.html" class="tsd-signature-type">TreeNavigationService</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#navigationservice">navigationService</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L146">packages/core/src/browser/tree/tree-model.ts:146</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="onchangedemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> on<wbr>Changed<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Changed<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="core.emitter.html" class="tsd-signature-type">Emitter</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new Emitter&lt;void&gt;()</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#onchangedemitter">onChangedEmitter</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L149">packages/core/src/browser/tree/tree-model.ts:149</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="onopennodeemitter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> on<wbr>Open<wbr>Node<wbr>Emitter</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Open<wbr>Node<wbr>Emitter<span class="tsd-signature-symbol">:</span> <a href="core.emitter.html" class="tsd-signature-type">Emitter</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;new Emitter&lt;TreeNode&gt;()</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#onopennodeemitter">onOpenNodeEmitter</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L150">packages/core/src/browser/tree/tree-model.ts:150</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="selectionservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> selection<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">selection<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="../interfaces/core.treeselectionservice.html" class="tsd-signature-type">TreeSelectionService</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#selectionservice">selectionService</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L144">packages/core/src/browser/tree/tree-model.ts:144</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="todispose" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> to<wbr>Dispose</h3>
+					<div class="tsd-signature tsd-kind-icon">to<wbr>Dispose<span class="tsd-signature-symbol">:</span> <a href="core.disposablecollection.html" class="tsd-signature-type">DisposableCollection</a><span class="tsd-signature-symbol"> =&nbsp;new DisposableCollection()</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#todispose">toDispose</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L151">packages/core/src/browser/tree/tree-model.ts:151</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="tree" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> tree</h3>
+					<div class="tsd-signature tsd-kind-icon">tree<span class="tsd-signature-symbol">:</span> <a href="../interfaces/core.tree.html" class="tsd-signature-type">Tree</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#tree">tree</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L143">packages/core/src/browser/tree/tree-model.ts:143</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="treesearch" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> tree<wbr>Search</h3>
+					<div class="tsd-signature tsd-kind-icon">tree<wbr>Search<span class="tsd-signature-symbol">:</span> <a href="core.treesearch.html" class="tsd-signature-type">TreeSearch</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#treesearch">treeSearch</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L147">packages/core/src/browser/tree/tree-model.ts:147</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="typehierarchyserviceprovider" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> type<wbr>Hierarchy<wbr>Service<wbr>Provider</h3>
+					<div class="tsd-signature tsd-kind-icon">type<wbr>Hierarchy<wbr>Service<wbr>Provider<span class="tsd-signature-symbol">:</span> <a href="typehierarchy.typehierarchyserviceprovider.html" class="tsd-signature-type">TypeHierarchyServiceProvider</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/typehierarchy/src/browser/tree/typehierarchy-tree-model.ts#L28">packages/typehierarchy/src/browser/tree/typehierarchy-tree-model.ts:28</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+					<a name="onchanged" class="tsd-anchor"></a>
+					<h3>on<wbr>Changed</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> onChanged<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#onchanged">onChanged</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L198">packages/core/src/browser/tree/tree-model.ts:198</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+					<a name="ondidchangebusy" class="tsd-anchor"></a>
+					<h3>on<wbr>Did<wbr>Change<wbr>Busy</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> onDidChangeBusy<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#ondidchangebusy">onDidChangeBusy</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L437">packages/core/src/browser/tree/tree-model.ts:437</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+					<a name="onexpansionchanged" class="tsd-anchor"></a>
+					<h3>on<wbr>Expansion<wbr>Changed</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> onExpansionChanged<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#onexpansionchanged">onExpansionChanged</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L239">packages/core/src/browser/tree/tree-model.ts:239</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+					<a name="onnoderefreshed" class="tsd-anchor"></a>
+					<h3>on<wbr>Node<wbr>Refreshed</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> onNodeRefreshed<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.compositetreenode.html" class="tsd-signature-type">CompositeTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> &amp; </span><a href="../modules/core.waituntilevent.html" class="tsd-signature-type">WaitUntilEvent</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#onnoderefreshed">onNodeRefreshed</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L210">packages/core/src/browser/tree/tree-model.ts:210</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.compositetreenode.html" class="tsd-signature-type">CompositeTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> &amp; </span><a href="../modules/core.waituntilevent.html" class="tsd-signature-type">WaitUntilEvent</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+					<a name="onopennode" class="tsd-anchor"></a>
+					<h3>on<wbr>Open<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> onOpenNode<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#onopennode">onOpenNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L202">packages/core/src/browser/tree/tree-model.ts:202</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+					<a name="onselectionchanged" class="tsd-anchor"></a>
+					<h3>on<wbr>Selection<wbr>Changed</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> onSelectionChanged<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#onselectionchanged">onSelectionChanged</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L235">packages/core/src/browser/tree/tree-model.ts:235</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+					<a name="root" class="tsd-anchor"></a>
+					<h3>root</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> root<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> root<span class="tsd-signature-symbol">(</span>root<span class="tsd-signature-symbol">: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#root">root</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L190">packages/core/src/browser/tree/tree-model.ts:190</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#root">root</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L194">packages/core/src/browser/tree/tree-model.ts:194</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>root: <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+					<a name="selectednodes" class="tsd-anchor"></a>
+					<h3>selected<wbr>Nodes</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> selectedNodes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#selectednodes">selectedNodes</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L230">packages/core/src/browser/tree/tree-model.ts:230</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="addselection" class="tsd-anchor"></a>
+					<h3>add<wbr>Selection</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Selection<span class="tsd-signature-symbol">(</span>selectionOrTreeNode<span class="tsd-signature-symbol">: </span><a href="../modules/core.treeselection.html" class="tsd-signature-type">TreeSelection</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#addselection">addSelection</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#addselection">addSelection</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L409">packages/core/src/browser/tree/tree-model.ts:409</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>selectionOrTreeNode: <a href="../modules/core.treeselection.html" class="tsd-signature-type">TreeSelection</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="cannavigatebackward" class="tsd-anchor"></a>
+					<h3>can<wbr>Navigate<wbr>Backward</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">can<wbr>Navigate<wbr>Backward<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#cannavigatebackward">canNavigateBackward</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#cannavigatebackward">canNavigateBackward</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L381">packages/core/src/browser/tree/tree-model.ts:381</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="cannavigateforward" class="tsd-anchor"></a>
+					<h3>can<wbr>Navigate<wbr>Forward</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">can<wbr>Navigate<wbr>Forward<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#cannavigateforward">canNavigateForward</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#cannavigateforward">canNavigateForward</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L377">packages/core/src/browser/tree/tree-model.ts:377</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="collapseall" class="tsd-anchor"></a>
+					<h3>collapse<wbr>All</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">collapse<wbr>All<span class="tsd-signature-symbol">(</span>raw<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.compositetreenode.html" class="tsd-signature-type">CompositeTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#collapseall">collapseAll</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#collapseall">collapseAll</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L261">packages/core/src/browser/tree/tree-model.ts:261</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> raw: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.compositetreenode.html" class="tsd-signature-type">CompositeTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="collapsenode" class="tsd-anchor"></a>
+					<h3>collapse<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">collapse<wbr>Node<span class="tsd-signature-symbol">(</span>raw<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#collapsenode">collapseNode</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#collapsenode">collapseNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L252">packages/core/src/browser/tree/tree-model.ts:252</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> raw: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="createbackwarditerator" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> create<wbr>Backward<wbr>Iterator</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Backward<wbr>Iterator<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.treeiterator.html" class="tsd-signature-type">TreeIterator</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#createbackwarditerator">createBackwardIterator</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L319">packages/core/src/browser/tree/tree-model.ts:319</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.treeiterator.html" class="tsd-signature-type">TreeIterator</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="createiterator" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> create<wbr>Iterator</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Iterator<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.treeiterator.html" class="tsd-signature-type">TreeIterator</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#createiterator">createIterator</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L330">packages/core/src/browser/tree/tree-model.ts:330</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.treeiterator.html" class="tsd-signature-type">TreeIterator</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="dispose" class="tsd-anchor"></a>
+					<h3>dispose</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">dispose<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#dispose">dispose</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#dispose">dispose</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L171">packages/core/src/browser/tree/tree-model.ts:171</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="dogetnextnode" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> do<wbr>Get<wbr>Next<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">do<wbr>Get<wbr>Next<wbr>Node<span class="tsd-signature-symbol">(</span>iterator<span class="tsd-signature-symbol">: </span><a href="../modules/core.treeiterator.html" class="tsd-signature-type">TreeIterator</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#dogetnextnode">doGetNextNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L305">packages/core/src/browser/tree/tree-model.ts:305</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>iterator: <a href="../modules/core.treeiterator.html" class="tsd-signature-type">TreeIterator</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="donavigate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> do<wbr>Navigate</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">do<wbr>Navigate<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#donavigate">doNavigate</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L399">packages/core/src/browser/tree/tree-model.ts:399</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+					<a name="doopennode" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> do<wbr>Open<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">do<wbr>Open<wbr>Node<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#doopennode">doOpenNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/typehierarchy/src/browser/tree/typehierarchy-tree-model.ts#L30">packages/typehierarchy/src/browser/tree/typehierarchy-tree-model.ts:30</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="expandnode" class="tsd-anchor"></a>
+					<h3>expand<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">expand<wbr>Node<span class="tsd-signature-symbol">(</span>raw<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#expandnode">expandNode</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#expandnode">expandNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L243">packages/core/src/browser/tree/tree-model.ts:243</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> raw: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="firechanged" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> fire<wbr>Changed</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">fire<wbr>Changed<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#firechanged">fireChanged</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L206">packages/core/src/browser/tree/tree-model.ts:206</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="flipdirection" class="tsd-anchor"></a>
+					<h3>flip<wbr>Direction</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">flip<wbr>Direction<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/typehierarchy/src/browser/tree/typehierarchy-tree-model.ts#L66">packages/typehierarchy/src/browser/tree/typehierarchy-tree-model.ts:66</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>If the tree root is set, it resets it with the inverse type hierarchy direction.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getnextselectablenode" class="tsd-anchor"></a>
+					<h3>get<wbr>Next<wbr>Selectable<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Next<wbr>Selectable<wbr>Node<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">?: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#getnextselectablenode">getNextSelectableNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L300">packages/core/src/browser/tree/tree-model.ts:300</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> node: <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> =&nbsp;this.selectedNodes[0]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getnode" class="tsd-anchor"></a>
+					<h3>get<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Node<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#getnode">getNode</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#getnode">getNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L214">packages/core/src/browser/tree/tree-model.ts:214</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>id: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getprevselectablenode" class="tsd-anchor"></a>
+					<h3>get<wbr>Prev<wbr>Selectable<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Prev<wbr>Selectable<wbr>Node<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">?: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#getprevselectablenode">getPrevSelectableNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L288">packages/core/src/browser/tree/tree-model.ts:288</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> node: <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> =&nbsp;this.selectedNodes[0]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="handleexpansion" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> handle<wbr>Expansion</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">handle<wbr>Expansion<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#handleexpansion">handleExpansion</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L175">packages/core/src/browser/tree/tree-model.ts:175</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="init" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> init</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">init<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#init">init</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L154">packages/core/src/browser/tree/tree-model.ts:154</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="initialize" class="tsd-anchor"></a>
+					<h3>initialize</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">initialize<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="../interfaces/typehierarchy.typehierarchytree.initoptions.html" class="tsd-signature-type">InitOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/typehierarchy/src/browser/tree/typehierarchy-tree-model.ts#L37">packages/typehierarchy/src/browser/tree/typehierarchy-tree-model.ts:37</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Initializes the tree by calculating and setting a new tree root node.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>options: <a href="../interfaces/typehierarchy.typehierarchytree.initoptions.html" class="tsd-signature-type">InitOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="markasbusy" class="tsd-anchor"></a>
+					<h3>mark<wbr>AsBusy</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">mark<wbr>AsBusy<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&gt;</span>, ms<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, token<span class="tsd-signature-symbol">: </span><a href="../modules/core.cancellationtoken.html" class="tsd-signature-type">CancellationToken</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#markasbusy">markAsBusy</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#markasbusy">markAsBusy</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L441">packages/core/src/browser/tree/tree-model.ts:441</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+								<li>
+									<h5>ms: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>token: <a href="../modules/core.cancellationtoken.html" class="tsd-signature-type">CancellationToken</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="navigatebackward" class="tsd-anchor"></a>
+					<h3>navigate<wbr>Backward</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">navigate<wbr>Backward<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#navigatebackward">navigateBackward</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#navigatebackward">navigateBackward</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L392">packages/core/src/browser/tree/tree-model.ts:392</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="navigateforward" class="tsd-anchor"></a>
+					<h3>navigate<wbr>Forward</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">navigate<wbr>Forward<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#navigateforward">navigateForward</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#navigateforward">navigateForward</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L385">packages/core/src/browser/tree/tree-model.ts:385</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="navigateto" class="tsd-anchor"></a>
+					<h3>navigate<wbr>To</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">navigate<wbr>To<span class="tsd-signature-symbol">(</span>nodeOrId<span class="tsd-signature-symbol">: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#navigateto">navigateTo</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#navigateto">navigateTo</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L365">packages/core/src/browser/tree/tree-model.ts:365</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>nodeOrId: <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="opennode" class="tsd-anchor"></a>
+					<h3>open<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">open<wbr>Node<span class="tsd-signature-symbol">(</span>raw<span class="tsd-signature-symbol">?: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#opennode">openNode</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#opennode">openNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L341">packages/core/src/browser/tree/tree-model.ts:341</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> raw: <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="refresh" class="tsd-anchor"></a>
+					<h3>refresh</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">refresh<span class="tsd-signature-symbol">(</span>parent<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.compositetreenode.html" class="tsd-signature-type">CompositeTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.compositetreenode.html" class="tsd-signature-type">CompositeTreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#refresh">refresh</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#refresh">refresh</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L222">packages/core/src/browser/tree/tree-model.ts:222</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> parent: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.compositetreenode.html" class="tsd-signature-type">CompositeTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.compositetreenode.html" class="tsd-signature-type">CompositeTreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="restorestate" class="tsd-anchor"></a>
+					<h3>restore<wbr>State</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">restore<wbr>State<span class="tsd-signature-symbol">(</span>state<span class="tsd-signature-symbol">: </span><a href="../interfaces/core.treemodelimpl.state.html" class="tsd-signature-type">State</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#restorestate">restoreState</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L431">packages/core/src/browser/tree/tree-model.ts:431</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>state: <a href="../interfaces/core.treemodelimpl.state.html" class="tsd-signature-type">State</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="selectifancestorofselected" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> select<wbr>IfAncestor<wbr>OfSelected</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">select<wbr>IfAncestor<wbr>OfSelected<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#selectifancestorofselected">selectIfAncestorOfSelected</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L182">packages/core/src/browser/tree/tree-model.ts:182</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Select the given node if it is the ancestor of a selected node.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="selectnextnode" class="tsd-anchor"></a>
+					<h3>select<wbr>Next<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">select<wbr>Next<wbr>Node<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">?: </span><a href="../enums/core.treeselection.selectiontype.html" class="tsd-signature-type">SelectionType</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#selectnextnode">selectNextNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L293">packages/core/src/browser/tree/tree-model.ts:293</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> type: <a href="../enums/core.treeselection.selectiontype.html" class="tsd-signature-type">SelectionType</a><span class="tsd-signature-symbol"> =&nbsp;TreeSelection.SelectionType.DEFAULT</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="selectnode" class="tsd-anchor"></a>
+					<h3>select<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">select<wbr>Node<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#selectnode">selectNode</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#selectnode">selectNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L413">packages/core/src/browser/tree/tree-model.ts:413</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="selectparent" class="tsd-anchor"></a>
+					<h3>select<wbr>Parent</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">select<wbr>Parent<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#selectparent">selectParent</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#selectparent">selectParent</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L355">packages/core/src/browser/tree/tree-model.ts:355</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="selectprevnode" class="tsd-anchor"></a>
+					<h3>select<wbr>Prev<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">select<wbr>Prev<wbr>Node<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">?: </span><a href="../enums/core.treeselection.selectiontype.html" class="tsd-signature-type">SelectionType</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#selectprevnode">selectPrevNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L281">packages/core/src/browser/tree/tree-model.ts:281</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> type: <a href="../enums/core.treeselection.selectiontype.html" class="tsd-signature-type">SelectionType</a><span class="tsd-signature-symbol"> =&nbsp;TreeSelection.SelectionType.DEFAULT</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="selectrange" class="tsd-anchor"></a>
+					<h3>select<wbr>Range</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">select<wbr>Range<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#selectrange">selectRange</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#selectrange">selectRange</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L421">packages/core/src/browser/tree/tree-model.ts:421</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="storestate" class="tsd-anchor"></a>
+					<h3>store<wbr>State</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">store<wbr>State<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/core.treemodelimpl.state.html" class="tsd-signature-type">State</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#storestate">storeState</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#storestate">storeState</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L425">packages/core/src/browser/tree/tree-model.ts:425</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/core.treemodelimpl.state.html" class="tsd-signature-type">State</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="togglenode" class="tsd-anchor"></a>
+					<h3>toggle<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">toggle<wbr>Node<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#togglenode">toggleNode</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#togglenode">toggleNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L417">packages/core/src/browser/tree/tree-model.ts:417</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.selectabletreenode.html" class="tsd-signature-type">SelectableTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="togglenodeexpansion" class="tsd-anchor"></a>
+					<h3>toggle<wbr>Node<wbr>Expansion</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">toggle<wbr>Node<wbr>Expansion<span class="tsd-signature-symbol">(</span>raw<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#togglenodeexpansion">toggleNodeExpansion</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#togglenodeexpansion">toggleNodeExpansion</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L272">packages/core/src/browser/tree/tree-model.ts:272</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> raw: <span class="tsd-signature-type">Readonly</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/core.expandabletreenode.html" class="tsd-signature-type">ExpandableTreeNode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="validatenode" class="tsd-anchor"></a>
+					<h3>validate<wbr>Node</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">validate<wbr>Node<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/core.treemodel.html">TreeModel</a>.<a href="../interfaces/core.treemodel.html#validatenode">validateNode</a></p>
+								<p>Inherited from <a href="core.treemodelimpl.html">TreeModelImpl</a>.<a href="core.treemodelimpl.html#validatenode">validateNode</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/core/src/browser/tree/tree-model.ts#L218">packages/core/src/browser/tree/tree-model.ts:218</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>node: <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../modules/core.treenode.html" class="tsd-signature-type">TreeNode</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-external-module">
+						<a href="../modules/typehierarchy.html">typehierarchy</a>
+						<ul>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/typehierarchy.typehierarchycommands.html">Type<wbr>Hierarchy<wbr>Commands</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-class tsd-parent-kind-external-module">
+						<a href="typehierarchy.typehierarchycontribution.html" class="tsd-kind-icon">Type<wbr>Hierarchy<wbr>Contribution</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-external-module">
+						<a href="typehierarchy.typehierarchyservice.html" class="tsd-kind-icon">Type<wbr>Hierarchy<wbr>Service</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-external-module">
+						<a href="typehierarchy.typehierarchyserviceprovider.html" class="tsd-kind-icon">Type<wbr>Hierarchy<wbr>Service<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-external-module">
+						<a href="typehierarchy.typehierarchytree.html" class="tsd-kind-icon">Type<wbr>Hierarchy<wbr>Tree</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-external-module">
+						<a href="typehierarchy.typehierarchytreemodel.html" class="tsd-kind-icon">Type<wbr>Hierarchy<wbr>Tree<wbr>Model</a>
+						<ul>
+							<li class=" tsd-kind-interface tsd-parent-kind-class">
+								<a href="../interfaces/typehierarchy.typehierarchytreemodel.state.html" class="tsd-kind-icon">State</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#expansionservice" class="tsd-kind-icon">expansion<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#logger" class="tsd-kind-icon">logger</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#navigationservice" class="tsd-kind-icon">navigation<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#onchangedemitter" class="tsd-kind-icon">on<wbr>Changed<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#onopennodeemitter" class="tsd-kind-icon">on<wbr>Open<wbr>Node<wbr>Emitter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#selectionservice" class="tsd-kind-icon">selection<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#todispose" class="tsd-kind-icon">to<wbr>Dispose</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#tree" class="tsd-kind-icon">tree</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#treesearch" class="tsd-kind-icon">tree<wbr>Search</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#typehierarchyserviceprovider" class="tsd-kind-icon">type<wbr>Hierarchy<wbr>Service<wbr>Provider</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#onchanged" class="tsd-kind-icon">on<wbr>Changed</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#ondidchangebusy" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>Busy</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#onexpansionchanged" class="tsd-kind-icon">on<wbr>Expansion<wbr>Changed</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#onnoderefreshed" class="tsd-kind-icon">on<wbr>Node<wbr>Refreshed</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#onopennode" class="tsd-kind-icon">on<wbr>Open<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#onselectionchanged" class="tsd-kind-icon">on<wbr>Selection<wbr>Changed</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#root" class="tsd-kind-icon">root</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#selectednodes" class="tsd-kind-icon">selected<wbr>Nodes</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#addselection" class="tsd-kind-icon">add<wbr>Selection</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#cannavigatebackward" class="tsd-kind-icon">can<wbr>Navigate<wbr>Backward</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#cannavigateforward" class="tsd-kind-icon">can<wbr>Navigate<wbr>Forward</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#collapseall" class="tsd-kind-icon">collapse<wbr>All</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#collapsenode" class="tsd-kind-icon">collapse<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#createbackwarditerator" class="tsd-kind-icon">create<wbr>Backward<wbr>Iterator</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#createiterator" class="tsd-kind-icon">create<wbr>Iterator</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#dispose" class="tsd-kind-icon">dispose</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#dogetnextnode" class="tsd-kind-icon">do<wbr>Get<wbr>Next<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#donavigate" class="tsd-kind-icon">do<wbr>Navigate</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#doopennode" class="tsd-kind-icon">do<wbr>Open<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#expandnode" class="tsd-kind-icon">expand<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#firechanged" class="tsd-kind-icon">fire<wbr>Changed</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="typehierarchy.typehierarchytreemodel.html#flipdirection" class="tsd-kind-icon">flip<wbr>Direction</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#getnextselectablenode" class="tsd-kind-icon">get<wbr>Next<wbr>Selectable<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#getnode" class="tsd-kind-icon">get<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#getprevselectablenode" class="tsd-kind-icon">get<wbr>Prev<wbr>Selectable<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#handleexpansion" class="tsd-kind-icon">handle<wbr>Expansion</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#init" class="tsd-kind-icon">init</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="typehierarchy.typehierarchytreemodel.html#initialize" class="tsd-kind-icon">initialize</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#markasbusy" class="tsd-kind-icon">mark<wbr>AsBusy</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#navigatebackward" class="tsd-kind-icon">navigate<wbr>Backward</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#navigateforward" class="tsd-kind-icon">navigate<wbr>Forward</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#navigateto" class="tsd-kind-icon">navigate<wbr>To</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#opennode" class="tsd-kind-icon">open<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#refresh" class="tsd-kind-icon">refresh</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#restorestate" class="tsd-kind-icon">restore<wbr>State</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="typehierarchy.typehierarchytreemodel.html#selectifancestorofselected" class="tsd-kind-icon">select<wbr>IfAncestor<wbr>OfSelected</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#selectnextnode" class="tsd-kind-icon">select<wbr>Next<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#selectnode" class="tsd-kind-icon">select<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#selectparent" class="tsd-kind-icon">select<wbr>Parent</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#selectprevnode" class="tsd-kind-icon">select<wbr>Prev<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#selectrange" class="tsd-kind-icon">select<wbr>Range</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#storestate" class="tsd-kind-icon">store<wbr>State</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#togglenode" class="tsd-kind-icon">toggle<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#togglenodeexpansion" class="tsd-kind-icon">toggle<wbr>Node<wbr>Expansion</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="typehierarchy.typehierarchytreemodel.html#validatenode" class="tsd-kind-icon">validate<wbr>Node</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-class tsd-parent-kind-external-module">
+						<a href="typehierarchy.typehierarchytreewidget.html" class="tsd-kind-icon">Type<wbr>Hierarchy<wbr>Tree<wbr>Widget</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+						<a href="../interfaces/typehierarchy.typehierarchyopenviewarguments.html" class="tsd-kind-icon">Type<wbr>Hierarchy<wbr>Open<wbr>View<wbr>Arguments</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../modules/typehierarchy.html#createhierarchytreecontainer" class="tsd-kind-icon">create<wbr>Hierarchy<wbr>Tree<wbr>Container</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="../modules/typehierarchy.html#createhierarchytreewidget" class="tsd-kind-icon">create<wbr>Hierarchy<wbr>Tree<wbr>Widget</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

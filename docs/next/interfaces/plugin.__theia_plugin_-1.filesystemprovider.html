@@ -1,0 +1,779 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FileSystemProvider | Theia TypeDoc</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Theia TypeDoc</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/plugin.html">plugin</a>
+				</li>
+				<li>
+					<a href="../modules/plugin.__theia_plugin_-1.html">&quot;@theia/plugin&quot;</a>
+				</li>
+				<li>
+					<a href="plugin.__theia_plugin_-1.filesystemprovider.html">FileSystemProvider</a>
+				</li>
+			</ul>
+			<h1>Interface FileSystemProvider</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>The filesystem provider defines what the editor needs to read, write, discover,
+							and to manage files and folders. It allows extensions to serve files from remote places,
+						like ftp-servers, and to seamlessly integrate those into the editor.</p>
+					</div>
+					<ul>
+						<li><em>Note 1:</em> The filesystem provider API works with <a href="#Uri">uris</a> and assumes hierarchical
+						paths, e.g. <code>foo:/my/path</code> is a child of <code>foo:/my/</code> and a parent of <code>foo:/my/path/deeper</code>.</li>
+						<li><em>Note 2:</em> There is an activation event <code>onFileSystem:&lt;scheme&gt;</code> that fires when a file
+						or folder is being accessed.</li>
+						<li><em>Note 3:</em> The word &#39;file&#39; is often used to denote all <a href="#FileType">kinds</a> of files, e.g.
+						folders, symbolic links, and regular files.</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">FileSystemProvider</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="plugin.__theia_plugin_-1.filesystemprovider.html#ondidchangefile" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>File</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="plugin.__theia_plugin_-1.filesystemprovider.html#copy" class="tsd-kind-icon">copy</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="plugin.__theia_plugin_-1.filesystemprovider.html#createdirectory" class="tsd-kind-icon">create<wbr>Directory</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="plugin.__theia_plugin_-1.filesystemprovider.html#delete" class="tsd-kind-icon">delete</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="plugin.__theia_plugin_-1.filesystemprovider.html#readdirectory" class="tsd-kind-icon">read<wbr>Directory</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="plugin.__theia_plugin_-1.filesystemprovider.html#readfile" class="tsd-kind-icon">read<wbr>File</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="plugin.__theia_plugin_-1.filesystemprovider.html#rename" class="tsd-kind-icon">rename</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="plugin.__theia_plugin_-1.filesystemprovider.html#stat" class="tsd-kind-icon">stat</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="plugin.__theia_plugin_-1.filesystemprovider.html#watch" class="tsd-kind-icon">watch</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="plugin.__theia_plugin_-1.filesystemprovider.html#writefile" class="tsd-kind-icon">write<wbr>File</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="ondidchangefile" class="tsd-anchor"></a>
+					<h3>on<wbr>Did<wbr>Change<wbr>File</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>File<span class="tsd-signature-symbol">:</span> <a href="plugin.__theia_plugin_-1.event.html" class="tsd-signature-type">Event</a><span class="tsd-signature-symbol">&lt;</span><a href="plugin.__theia_plugin_-1.filechangeevent.html" class="tsd-signature-type">FileChangeEvent</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/plugin/src/theia.d.ts#L4413">packages/plugin/src/theia.d.ts:4413</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>An event to signal that a resource has been created, changed, or deleted. This
+								event should fire for resources that are being <a href="#FileSystemProvider.watch">watched</a>
+							by clients of this provider.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="copy" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> copy</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">copy<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a>, destination<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/plugin/src/theia.d.ts#L4517">packages/plugin/src/theia.d.ts:4517</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Copy files or folders. Implementing this function is optional but it will speedup
+									the copy operation.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when <code>source</code> doesn&#39;t exist.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when parent of <code>destination</code> doesn&#39;t exist, e.g. no mkdirp-logic required.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileExists"><code>FileExists</code></a> when <code>destination</code> exists and when the <code>overwrite</code> option is not <code>true</code>.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.NoPermissions"><code>NoPermissions</code></a> when permissions aren&#39;t sufficient.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>source: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The existing file.</p>
+									</div>
+								</li>
+								<li>
+									<h5>destination: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The destination location.</p>
+									</div>
+								</li>
+								<li>
+									<h5>options: <span class="tsd-signature-type">object</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Defines if existing files should be overwriten.</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5>overwrite<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="createdirectory" class="tsd-anchor"></a>
+					<h3>create<wbr>Directory</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Directory<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/plugin/src/theia.d.ts#L4458">packages/plugin/src/theia.d.ts:4458</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Create a new directory (Note, that new files are created via <code>write</code>-calls).</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when the parent of <code>uri</code> doesn&#39;t exist, e.g. no mkdirp-logic required.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileExists"><code>FileExists</code></a> when <code>uri</code> already exists.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.NoPermissions"><code>NoPermissions</code></a> when permissions aren&#39;t sufficient.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The uri of the new folder.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="delete" class="tsd-anchor"></a>
+					<h3>delete</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">delete<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/plugin/src/theia.d.ts#L4490">packages/plugin/src/theia.d.ts:4490</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Delete a file.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when <code>uri</code> doesn&#39;t exist.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.NoPermissions"><code>NoPermissions</code></a> when permissions aren&#39;t sufficient.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The resource that is to be deleted.</p>
+									</div>
+								</li>
+								<li>
+									<h5>options: <span class="tsd-signature-type">object</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Defines if deletion of folders is recursive.</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5>recursive<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="readdirectory" class="tsd-anchor"></a>
+					<h3>read<wbr>Directory</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">read<wbr>Directory<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="../enums/plugin.__theia_plugin_-1.filetype.html" class="tsd-signature-type">FileType</a><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="../enums/plugin.__theia_plugin_-1.filetype.html" class="tsd-signature-type">FileType</a><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/plugin/src/theia.d.ts#L4448">packages/plugin/src/theia.d.ts:4448</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Retrieve all entries of a <a href="#FileType.Directory">directory</a>.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when <code>uri</code> doesn&#39;t exist.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The uri of the folder.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="../enums/plugin.__theia_plugin_-1.filetype.html" class="tsd-signature-type">FileType</a><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">[]</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="../enums/plugin.__theia_plugin_-1.filetype.html" class="tsd-signature-type">FileType</a><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span>
+							</h4>
+							<p>An array of name/type-tuples or a thenable that resolves to such.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="readfile" class="tsd-anchor"></a>
+					<h3>read<wbr>File</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">read<wbr>File<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/plugin/src/theia.d.ts#L4467">packages/plugin/src/theia.d.ts:4467</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Read the entire contents of a file.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when <code>uri</code> doesn&#39;t exist.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The uri of the file.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Uint8Array</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">&gt;</span>
+							</h4>
+							<p>An array of bytes or a thenable that resolves to such.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="rename" class="tsd-anchor"></a>
+					<h3>rename</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">rename<span class="tsd-signature-symbol">(</span>oldUri<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a>, newUri<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/plugin/src/theia.d.ts#L4503">packages/plugin/src/theia.d.ts:4503</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Rename a file or folder.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when <code>oldUri</code> doesn&#39;t exist.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when parent of <code>newUri</code> doesn&#39;t exist, e.g. no mkdirp-logic required.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileExists"><code>FileExists</code></a> when <code>newUri</code> exists and when the <code>overwrite</code> option is not <code>true</code>.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.NoPermissions"><code>NoPermissions</code></a> when permissions aren&#39;t sufficient.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>oldUri: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The existing file.</p>
+									</div>
+								</li>
+								<li>
+									<h5>newUri: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The new location.</p>
+									</div>
+								</li>
+								<li>
+									<h5>options: <span class="tsd-signature-type">object</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Defines if existing files should be overwritten.</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5>overwrite<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="stat" class="tsd-anchor"></a>
+					<h3>stat</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">stat<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="plugin.__theia_plugin_-1.filestat.html" class="tsd-signature-type">FileStat</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><a href="plugin.__theia_plugin_-1.filestat.html" class="tsd-signature-type">FileStat</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/plugin/src/theia.d.ts#L4439">packages/plugin/src/theia.d.ts:4439</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Retrieve metadata about a file.</p>
+								</div>
+								<p>Note that the metadata for symbolic links should be the metadata of the file they refer to.
+									Still, the <a href="#FileType.SymbolicLink">SymbolicLink</a>-type must be used in addition to the actual type, e.g.
+								<code>FileType.SymbolicLink | FileType.Directory</code>.</p>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when <code>uri</code> doesn&#39;t exist.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The uri of the file to retrieve metadata about.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="plugin.__theia_plugin_-1.filestat.html" class="tsd-signature-type">FileStat</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><a href="plugin.__theia_plugin_-1.filestat.html" class="tsd-signature-type">FileStat</a><span class="tsd-signature-symbol">&gt;</span>
+							</h4>
+							<p>The file metadata about the file.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="watch" class="tsd-anchor"></a>
+					<h3>watch</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">watch<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.disposable.html" class="tsd-signature-type">Disposable</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/plugin/src/theia.d.ts#L4426">packages/plugin/src/theia.d.ts:4426</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Subscribe to events in the file or folder denoted by <code>uri</code>.</p>
+								</div>
+								<p>The editor will call this function for files and folders. In the latter case, the
+									options differ from defaults, e.g. what files/folders to exclude from watching
+								and if subfolders, sub-subfolder, etc. should be watched (<code>recursive</code>).</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The uri of the file to be watched.</p>
+									</div>
+								</li>
+								<li>
+									<h5>options: <span class="tsd-signature-type">object</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Configures the watch.</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5>excludes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5>recursive<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../classes/plugin.__theia_plugin_-1.disposable.html" class="tsd-signature-type">Disposable</a></h4>
+							<p>A disposable that tells the provider to stop watching the <code>uri</code>.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="writefile" class="tsd-anchor"></a>
+					<h3>write<wbr>File</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">write<wbr>File<span class="tsd-signature-symbol">(</span>uri<span class="tsd-signature-symbol">: </span><a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a>, content<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/8ca3e64/packages/plugin/src/theia.d.ts#L4480">packages/plugin/src/theia.d.ts:4480</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Write data to a file, replacing its entire contents.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when <code>uri</code> doesn&#39;t exist and <code>create</code> is not set.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileNotFound"><code>FileNotFound</code></a> when the parent of <code>uri</code> doesn&#39;t exist and <code>create</code> is set, e.g. no mkdirp-logic required.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.FileExists"><code>FileExists</code></a> when <code>uri</code> already exists, <code>create</code> is set but <code>overwrite</code> is not set.</p>
+									</dd>
+									<dt>throws</dt>
+									<dd><p><a href="#FileSystemError.NoPermissions"><code>NoPermissions</code></a> when permissions aren&#39;t sufficient.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>uri: <a href="../classes/plugin.__theia_plugin_-1.uri.html" class="tsd-signature-type">Uri</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The uri of the file.</p>
+									</div>
+								</li>
+								<li>
+									<h5>content: <span class="tsd-signature-type">Uint8Array</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The new content of the file.</p>
+									</div>
+								</li>
+								<li>
+									<h5>options: <span class="tsd-signature-type">object</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Defines if missing files should or must be created.</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5>create<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5>overwrite<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">PromiseLike</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-external-module">
+						<a href="../modules/plugin.html">plugin</a>
+						<ul>
+							<li class="current tsd-kind-module tsd-parent-kind-external-module tsd-is-not-exported">
+								<a href="../modules/plugin.__theia_plugin_-1.html">&quot;@theia/plugin&quot;</a>
+								<ul>
+									<li class=" tsd-kind-module tsd-parent-kind-module">
+										<a href="../modules/plugin.__theia_plugin_-1.commands.html">commands</a>
+									</li>
+									<li class=" tsd-kind-module tsd-parent-kind-module tsd-is-not-exported">
+										<a href="../modules/plugin.__theia_plugin_-1.comment.html">comment</a>
+									</li>
+									<li class=" tsd-kind-module tsd-parent-kind-module">
+										<a href="../modules/plugin.__theia_plugin_-1.debug.html">debug</a>
+									</li>
+									<li class=" tsd-kind-module tsd-parent-kind-module">
+										<a href="../modules/plugin.__theia_plugin_-1.env.html">env</a>
+									</li>
+									<li class=" tsd-kind-module tsd-parent-kind-module">
+										<a href="../modules/plugin.__theia_plugin_-1.languages.html">languages</a>
+									</li>
+									<li class=" tsd-kind-module tsd-parent-kind-module">
+										<a href="../modules/plugin.__theia_plugin_-1.plugins.html">plugins</a>
+									</li>
+									<li class=" tsd-kind-module tsd-parent-kind-module">
+										<a href="../modules/plugin.__theia_plugin_-1.scm.html">scm</a>
+									</li>
+									<li class=" tsd-kind-module tsd-parent-kind-module">
+										<a href="../modules/plugin.__theia_plugin_-1.tasks.html">tasks</a>
+									</li>
+									<li class=" tsd-kind-module tsd-parent-kind-module">
+										<a href="../modules/plugin.__theia_plugin_-1.window.html">window</a>
+									</li>
+									<li class=" tsd-kind-module tsd-parent-kind-module">
+										<a href="../modules/plugin.__theia_plugin_-1.workspace.html">workspace</a>
+									</li>
+								</ul>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module tsd-is-not-exported">
+								<a href="../modules/plugin.__theia_plugin_.html">&quot;@theia/plugin&quot;</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface tsd-parent-kind-module">
+						<a href="plugin.__theia_plugin_-1.filesystemprovider.html" class="tsd-kind-icon">File<wbr>System<wbr>Provider</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="plugin.__theia_plugin_-1.filesystemprovider.html#ondidchangefile" class="tsd-kind-icon">on<wbr>Did<wbr>Change<wbr>File</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="plugin.__theia_plugin_-1.filesystemprovider.html#copy" class="tsd-kind-icon">copy</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="plugin.__theia_plugin_-1.filesystemprovider.html#createdirectory" class="tsd-kind-icon">create<wbr>Directory</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="plugin.__theia_plugin_-1.filesystemprovider.html#delete" class="tsd-kind-icon">delete</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="plugin.__theia_plugin_-1.filesystemprovider.html#readdirectory" class="tsd-kind-icon">read<wbr>Directory</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="plugin.__theia_plugin_-1.filesystemprovider.html#readfile" class="tsd-kind-icon">read<wbr>File</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="plugin.__theia_plugin_-1.filesystemprovider.html#rename" class="tsd-kind-icon">rename</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="plugin.__theia_plugin_-1.filesystemprovider.html#stat" class="tsd-kind-icon">stat</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="plugin.__theia_plugin_-1.filesystemprovider.html#watch" class="tsd-kind-icon">watch</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface">
+								<a href="plugin.__theia_plugin_-1.filesystemprovider.html#writefile" class="tsd-kind-icon">write<wbr>File</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

@@ -1,0 +1,578 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>IKeyBindingOptions | Theia TypeDoc</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Theia TypeDoc</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/core.html">core</a>
+				</li>
+				<li>
+					<a href="../classes/core.menucommandregistry.html">MenuCommandRegistry</a>
+				</li>
+				<li>
+					<a href="core.menucommandregistry.ikeybindingoptions.html">IKeyBindingOptions</a>
+				</li>
+			</ul>
+			<h1>Interface IKeyBindingOptions</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>An options object for creating a key binding.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">IKeyBindingOptions</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section tsd-is-not-exported">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="core.menucommandregistry.ikeybindingoptions.html#args" class="tsd-kind-icon">args</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="core.menucommandregistry.ikeybindingoptions.html#command" class="tsd-kind-icon">command</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="core.menucommandregistry.ikeybindingoptions.html#keys" class="tsd-kind-icon">keys</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="core.menucommandregistry.ikeybindingoptions.html#linuxkeys" class="tsd-kind-icon">linux<wbr>Keys</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="core.menucommandregistry.ikeybindingoptions.html#mackeys" class="tsd-kind-icon">mac<wbr>Keys</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="core.menucommandregistry.ikeybindingoptions.html#selector" class="tsd-kind-icon">selector</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="core.menucommandregistry.ikeybindingoptions.html#winkeys" class="tsd-kind-icon">win<wbr>Keys</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+					<a name="args" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> args</h3>
+					<div class="tsd-signature tsd-kind-icon">args<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyJSONObject</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in node_modules/@phosphor/commands/lib/index.d.ts:559</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The arguments for the command, if necessary.</p>
+						</div>
+						<p>The default value is an empty object.</p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+					<a name="command" class="tsd-anchor"></a>
+					<h3>command</h3>
+					<div class="tsd-signature tsd-kind-icon">command<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in node_modules/@phosphor/commands/lib/index.d.ts:553</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The id of the command to execute when the binding is matched.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+					<a name="keys" class="tsd-anchor"></a>
+					<h3>keys</h3>
+					<div class="tsd-signature tsd-kind-icon">keys<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in node_modules/@phosphor/commands/lib/index.d.ts:539</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The default key sequence for the key binding.</p>
+						</div>
+						<p>A key sequence is composed of one or more keystrokes, where each
+						keystroke is a combination of modifiers and a primary key.</p>
+						<p>Most key sequences will contain a single keystroke. Key sequences
+							with multiple keystrokes are called &quot;chords&quot;, and are useful for
+						implementing modal input (ala Vim).</p>
+						<p>Each keystroke in the sequence should be of the form:
+						<code>[&lt;modifier 1&gt; [&lt;modifier 2&gt; [&lt;modifier N&gt; ]]]&lt;primary key&gt;</code></p>
+						<p>The supported modifiers are: <code>Accel</code>, <code>Alt</code>, <code>Cmd</code>, <code>Ctrl</code>, and
+							<code>Shift</code>. The <code>Accel</code> modifier is translated to <code>Cmd</code> on Mac and
+							<code>Ctrl</code> on all other platforms. The <code>Cmd</code> modifier is ignored on
+						non-Mac platforms.</p>
+						<p>Keystrokes are case sensitive.</p>
+						<p><strong>Examples:</strong> <code>[&#39;Accel C&#39;]</code>, <code>[&#39;Shift F11&#39;]</code>, <code>[&#39;D&#39;, &#39;D&#39;]</code></p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+					<a name="linuxkeys" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> linux<wbr>Keys</h3>
+					<div class="tsd-signature tsd-kind-icon">linux<wbr>Keys<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in node_modules/@phosphor/commands/lib/index.d.ts:577</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The key sequence to use when running on Linux.</p>
+						</div>
+						<p>If provided, this will override <code>keys</code> on Linux platforms.</p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+					<a name="mackeys" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> mac<wbr>Keys</h3>
+					<div class="tsd-signature tsd-kind-icon">mac<wbr>Keys<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in node_modules/@phosphor/commands/lib/index.d.ts:571</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The key sequence to use when running on Mac.</p>
+						</div>
+						<p>If provided, this will override <code>keys</code> on Mac platforms.</p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+					<a name="selector" class="tsd-anchor"></a>
+					<h3>selector</h3>
+					<div class="tsd-signature tsd-kind-icon">selector<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in node_modules/@phosphor/commands/lib/index.d.ts:549</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The CSS selector for the key binding.</p>
+						</div>
+						<p>The key binding will only be invoked when the selector matches a
+							node on the propagation path of the keydown event. This allows
+						the key binding to be restricted to user-defined contexts.</p>
+						<p>The selector must not contain commas.</p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+					<a name="winkeys" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> win<wbr>Keys</h3>
+					<div class="tsd-signature tsd-kind-icon">win<wbr>Keys<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in node_modules/@phosphor/commands/lib/index.d.ts:565</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The key sequence to use when running on Windows.</p>
+						</div>
+						<p>If provided, this will override <code>keys</code> on Windows platforms.</p>
+					</div>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-external-module">
+						<a href="../modules/core.html">core</a>
+						<ul>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module tsd-is-not-exported">
+								<a href="../modules/core._file_icons_js_.html">&quot;file-<wbr>icons-<wbr>js&quot;</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module tsd-has-type-parameter">
+								<a href="../modules/core.applicationerror.html">Application<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.applicationshelllayoutmigrationerror.html">Application<wbr>Shell<wbr>Layout<wbr>Migration<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.bindable.html">Bindable</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.cancellationtoken.html">Cancellation<wbr>Token</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.color.html">Color</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.command.html">Command</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.commoncommands.html">Common<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.commonmenus.html">Common<wbr>Menus</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.compositetreeelement.html">Composite<wbr>Tree<wbr>Element</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.compositetreeelementnode.html">Composite<wbr>Tree<wbr>Element<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.compositetreenode.html">Composite<wbr>Tree<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.consolelogger.html">Console<wbr>Logger</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module tsd-has-type-parameter">
+								<a href="../modules/core.contextkey.html">Context<wbr>Key</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.decoratedtreenode.html">Decorated<wbr>Tree<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.dialogerror.html">Dialog<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.diffuris.html">Diff<wbr>Uris</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.disposable.html">Disposable</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.electroncommands.html">Electron<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.electronmenus.html">Electron<wbr>Menus</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module tsd-has-type-parameter">
+								<a href="../modules/core.event.html">Event</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module tsd-has-type-parameter">
+								<a href="../modules/core.eventlistenerobject.html">Event<wbr>Listener<wbr>Object</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.expandabletreenode.html">Expandable<wbr>Tree<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.fileuri.html">File<wbr>Uri</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.focusabletreeselection.html">Focusable<wbr>Tree<wbr>Selection</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.frontendapplicationpreferenceconfig.html">Frontend<wbr>Application<wbr>Preference<wbr>Config</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.iterators.html">Iterators</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.key.html">Key</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.keysequence.html">Key<wbr>Sequence</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.keybinding.html">Keybinding</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.keybindingcontexts.html">Keybinding<wbr>Contexts</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.keyboardcommands.html">Keyboard<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.keysorkeycodes.html">Keys<wbr>OrKey<wbr>Codes</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.labelicon.html">Label<wbr>Icon</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.menuaction.html">Menu<wbr>Action</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.messagingservice.html">Messaging<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.mocktreemodel.html">Mock<wbr>Tree<wbr>Model</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.navigatable.html">Navigatable</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.navigatablewidget.html">Navigatable<wbr>Widget</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.navigatablewidgetoptions.html">Navigatable<wbr>Widget<wbr>Options</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.os.html">OS</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.overridepreferencename.html">Override<wbr>Preference<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.preferencedataproperty.html">Preference<wbr>Data<wbr>Property</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.preferenceproviderdatachange.html">Preference<wbr>Provider<wbr>Data<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.preferenceschema.html">Preference<wbr>Schema</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.preferenceschemaproperties.html">Preference<wbr>Schema<wbr>Properties</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module tsd-has-type-parameter">
+								<a href="../modules/core.prioritizeable.html">Prioritizeable</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.progressmessage.html">Progress<wbr>Message</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.quickopenoptions.html">Quick<wbr>Open<wbr>Options</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.quickpickseparator.html">Quick<wbr>Pick<wbr>Separator</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.rendercontextmenuoptions.html">Render<wbr>Context<wbr>Menu<wbr>Options</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.resource.html">Resource</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.resourceerror.html">Resource<wbr>Error</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.saveable.html">Saveable</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.saveablewidget.html">Saveable<wbr>Widget</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.searchboxdebounceoptions.html">Search<wbr>Box<wbr>Debounce<wbr>Options</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.searchboxprops.html">Search<wbr>Box<wbr>Props</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.selectabletreenode.html">Selectable<wbr>Tree<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.sidepanel.html">Side<wbr>Panel</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.specialcases.html">Special<wbr>Cases</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.statefulwidget.html">Stateful<wbr>Widget</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.tabbartoolbaritem.html">Tab<wbr>Bar<wbr>Toolbar<wbr>Item</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.textdocumentcontentchangedelta.html">Text<wbr>Document<wbr>Content<wbr>Change<wbr>Delta</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.treeelementnode.html">Tree<wbr>Element<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module tsd-has-type-parameter">
+								<a href="../modules/core.treeiterator.html">Tree<wbr>Iterator</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.treenode.html">Tree<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.treeselection.html">Tree<wbr>Selection</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.treesourcenode.html">Tree<wbr>Source<wbr>Node</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.treewidgetselection.html">Tree<wbr>Widget<wbr>Selection</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.uriiconreference.html">URIIcon<wbr>Reference</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.uriselection.html">Uri<wbr>Selection</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.waituntilevent.html">Wait<wbr>Until<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.websocketchannelconnection.html">Web<wbr>Socket<wbr>Channel<wbr>Connection</a>
+							</li>
+							<li class=" tsd-kind-module tsd-parent-kind-external-module">
+								<a href="../modules/core.widgetdecoration.html">Widget<wbr>Decoration</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-external-module tsd-is-not-exported">
+						<a href="../classes/core.menucommandregistry.html" class="tsd-kind-icon">Menu<wbr>Command<wbr>Registry</a>
+						<ul>
+							<li class="current tsd-kind-interface tsd-parent-kind-class tsd-is-not-exported">
+								<a href="core.menucommandregistry.ikeybindingoptions.html" class="tsd-kind-icon">IKey<wbr>Binding<wbr>Options</a>
+								<ul>
+									<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+										<a href="core.menucommandregistry.ikeybindingoptions.html#args" class="tsd-kind-icon">args</a>
+									</li>
+									<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+										<a href="core.menucommandregistry.ikeybindingoptions.html#command" class="tsd-kind-icon">command</a>
+									</li>
+									<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+										<a href="core.menucommandregistry.ikeybindingoptions.html#keys" class="tsd-kind-icon">keys</a>
+									</li>
+									<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+										<a href="core.menucommandregistry.ikeybindingoptions.html#linuxkeys" class="tsd-kind-icon">linux<wbr>Keys</a>
+									</li>
+									<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+										<a href="core.menucommandregistry.ikeybindingoptions.html#mackeys" class="tsd-kind-icon">mac<wbr>Keys</a>
+									</li>
+									<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+										<a href="core.menucommandregistry.ikeybindingoptions.html#selector" class="tsd-kind-icon">selector</a>
+									</li>
+									<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
+										<a href="core.menucommandregistry.ikeybindingoptions.html#winkeys" class="tsd-kind-icon">win<wbr>Keys</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

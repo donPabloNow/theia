@@ -3,17 +3,17 @@
   "name": "@theia/monorepo",
   "version": "0.0.0",
   "engines": {
-    "yarn": "11.2.1",
-    "node": "10.15.3"
+    "yarn": "1.0.x || >=1.2.1",
+    "node": ">=10.11.0 <12"
   },
   "resolutions": {
-    "**/@types/node": "10.15.3",
+    "**/@types/node": "~10.3.6",
     "**/vscode-json-languageserver/**/vscode-languageserver": "6.0.0-next.1"
   },
   "devDependencies": {
     "@types/chai-string": "^1.4.0",
     "@types/jsdom": "^11.0.4",
-    "@types/node": "10.15.3",
+    "@types/node": "~10.3.6",
     "@types/sinon": "^2.3.5",
     "@types/temp": "^0.8.29",
     "@types/uuid": "^7.0.3",

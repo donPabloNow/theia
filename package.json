@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@theia/monorepo",
+  "name": "@theia/monorepo", 
   "version": "0.0.0", 
   "engines": {
     "yarn": "1.0.x || >=1.2.1",

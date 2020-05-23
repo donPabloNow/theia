@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "engines": {
     "yarn": "11.2.1",
-    "node": "11"
+    "node": "10.15.3"
   },
   "resolutions": {
     "**/@types/node": "~10.3.6",
